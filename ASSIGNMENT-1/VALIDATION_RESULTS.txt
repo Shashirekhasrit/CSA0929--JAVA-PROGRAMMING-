@@ -1,0 +1,64 @@
+Task01: OK
+Vehicle: TN01AB1234, type: Car
+Ticket: 1, vehicle: TN01AB1234
+Candidate classes: Vehicle, ParkingSlot, ParkingFloor, ParkingTicket, ParkingFacility, ParkingService, FeePolicy
+
+Task02: OK
+Floors: 3, slots on floor 1: 2
+61 minutes -> 2 billable hours -> Rs 60.0
+Wrong integer division: 61 / 60 = 1
+
+Task03: OK
+[0, 0]
+[0, 1]
+[1, 0]
+null
+true false false
+[0, 1]
+
+Task04: OK
+Ticket 101 / TN01AB1234 / 1794209707867
+Copied: Ticket 101 / TN01AB1234 / 1794209707867
+
+Task05: OK
+Ticket IDs: 1000, 1001
+North occupancy: 1, South occupancy: 1
+
+Task06: OK
+Vehicle constructor
+Car constructor
+ElectricCar constructor
+UML: Vehicle <|-- Car <|-- ElectricCar; Vehicle <|-- TwoWheeler
+
+Task07: OK
+Car[TN02B2] fee Rs 60.0
+Equal: true, same hash: true
+
+Task08: OK
+TwoWheeler TN01A1 -> Rs 30.0
+Car TN02B2 -> Rs 90.0
+ElectricCar TN03C3 -> Rs 210.0
+true
+
+Task09: OK
+TN03EV1234 fee Rs 60.0
+Charging available, charge Rs 60.0
+
+Task10: OK
+Floor 0, slot 1, vehicle TN01AB1234
+Use equals for wrappers: true
+
+Task11: OK
+Tickets: 1, 2, 3
+TwoWheeler fee: Rs 20.0
+Car fee: Rs 60.0
+EV fee incl. 5 kWh: Rs 90.0
+Active vehicles: 0
+Total collection: Rs 170.0
+
+Task12: OK
+E-bike flat fee: Rs 25.0
+Van (10 AM entry) fee: Rs 120.0
+Visitor one-day pass fee: Rs 40.0
+Two-wheeler fee: Rs 10.0
+Active: 0, collection: Rs 195.0

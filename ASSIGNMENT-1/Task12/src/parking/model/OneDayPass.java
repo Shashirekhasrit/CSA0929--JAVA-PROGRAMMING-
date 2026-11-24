@@ -1,0 +1,2 @@
+package parking.model;import java.time.LocalDate;
+public class OneDayPass {private final String regNo;private final LocalDate validDate;private final double price;public OneDayPass(String r,LocalDate d,double price){if(r==null||r.isBlank()||d==null||price<0)throw new IllegalArgumentException("Invalid pass");regNo=r.toUpperCase();validDate=d;this.price=price;}public boolean isValidFor(String r,LocalDate date){return regNo.equalsIgnoreCase(r)&&validDate.equals(date);}public double getPrice(){return price;}}
