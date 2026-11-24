@@ -1,0 +1,5 @@
+TASK 02 – EVIDENCE CHECKLIST
+1. Compile and run the .java file(s) in this folder (Task 11/12 use the src package structure).
+2. Save your own terminal screenshot here.
+3. Record actual output and any test inputs.
+4. Explain the code in your own words before submission.

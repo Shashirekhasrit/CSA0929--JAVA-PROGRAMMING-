@@ -1,0 +1,1 @@
+package parking.model; public class EBike extends Vehicle { public EBike(String r){super(r);} @Override public double hourlyRate(){return 0.0;} public double flatFee(){return 25.0;} @Override public double calculateFee(long minutes){if(minutes<0)throw new IllegalArgumentException("Negative duration");return flatFee();} }

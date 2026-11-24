@@ -1,0 +1,2 @@
+package parking.model;import java.time.*;
+public class DeliveryVan extends Car { public DeliveryVan(String r){super(r);} public double calculateFee(long minutes,LocalTime entry){if(minutes<0||entry==null)throw new IllegalArgumentException("Invalid duration/time");long hours=(minutes+59)/60;LocalTime end=entry.plusMinutes(minutes);boolean overlapsBusiness=entry.isBefore(LocalTime.of(17,0))&&end.isAfter(LocalTime.of(9,0));return hours*(overlapsBusiness?60.0:30.0);} }
